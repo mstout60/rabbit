@@ -3,6 +3,7 @@ import UserLayout from "./components/Layout/UserLayout";
 import Home from "./pages/Home";
 import { Toaster } from "sonner";
 import Login from "./pages/Login";
+import Register from "./pages/Register";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
           {/* User Layout */}
           <Route index element={<Home />} />
           <Route path="login" element={<Login />} />
+          <Route path="register" element={<Register />} />
         </Route>
         <Route>{/* Admin Layout */}</Route>
       </Routes>
