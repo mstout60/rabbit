@@ -88,7 +88,7 @@ const Footer = () => {
         {/* Follow us */}
         <div>
           <h3 className="text-lg text-gray-800 mb-4">Follow Us</h3>
-          <div className="flex items-center space-x-4 mb-6">
+          <div className="flex  items-center space-x-4 mb-6">
             <a
               href="https://www.facebook.com"
               target="_blank"
@@ -113,18 +113,20 @@ const Footer = () => {
             >
               <RiTwitterXLine className="size-4" />
             </a>
-
-            <p className="text-gray-500">Call Us</p>
-            <p>
-              <FiPhoneCall className="inline-block mr-2" />
-              012-345-6789
-            </p>
           </div>
+
+          <p className="text-gray-500">Call Us</p>
+          <p>
+            <FiPhoneCall className="inline-block mr-2" />
+            012-345-6789
+          </p>
         </div>
-        {/* Footer Bottom */}
-        <div className="container mx-auto mt-12 px-4 lg:px-0 border-t border-gray-200 pt-6">
-          <p className="text-gray-500 text-sm tracking-tighter text-center">&copy; 2025, CompileTab.  All Rights Reserved.</p>
-        </div>
+      </div>
+      {/* Footer Bottom */}
+      <div className="container mx-auto mt-12 px-4 lg:px-0 border-t border-gray-200 pt-6">
+        <p className="text-gray-500 text-sm tracking-tighter text-center">
+          &copy; 2025, CompileTab. All Rights Reserved.
+        </p>
       </div>
     </footer>
   );
